@@ -36,7 +36,7 @@
     "lodash": "^4.17.19"
   },
   "peerDependencies": {
-    "request": "^2.34"
+    "postman-request": "^2.88.1-postman.19"
   },
   "devDependencies": {
     "@request/api": "^0.6.0",
@@ -52,7 +52,7 @@
     "gulp-mocha": "~2.2.0",
     "node-version": "~1.0.0",
     "publish-please": "~2.4.1",
-    "request": "^2.34.0",
+    "postman-request": "^2.88.1-postman.19",
     "rimraf": "~2.5.3",
     "run-sequence": "~1.2.2",
     "stealthy-require": "~1.0.0"
