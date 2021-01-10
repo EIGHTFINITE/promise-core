@@ -14,7 +14,7 @@ describe('Promise-Core for Request@2', function () {
         it('should verify the options', function () {
 
             var request = stealthyRequire(require.cache, function () {
-                return require('request');
+                return require('postman-request');
             });
 
             expect(function () {
@@ -79,7 +79,7 @@ describe('Promise-Core for Request@2', function () {
             }).not.to.throw();
 
             request = stealthyRequire(require.cache, function () {
-                return require('request');
+                return require('postman-request');
             });
 
             expect(function () {
@@ -97,7 +97,7 @@ describe('Promise-Core for Request@2', function () {
             var mixinCalled = false; // eslint-disable-line no-unused-vars
 
             var request = stealthyRequire(require.cache, function () {
-                return require('request');
+                return require('postman-request');
             });
 
             configure({
@@ -135,7 +135,7 @@ describe('Promise-Core for Request@2', function () {
         before(function (done) {
 
             request = stealthyRequire(require.cache, function () {
-                return require('request');
+                return require('postman-request');
             });
 
             configure({
@@ -305,7 +305,7 @@ describe('Promise-Core for Request@2', function () {
         before(function (done) {
 
             request = stealthyRequire(require.cache, function () {
-                return require('request');
+                return require('postman-request');
             });
 
             configure({
